@@ -1,0 +1,5 @@
+[book]
+authors = ["sts10"]
+multilingual = false
+src = "src"
+title = "Linux Notes"
