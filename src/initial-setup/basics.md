@@ -1,4 +1,4 @@
-# Some Basics
+# Some App Installation and Hard Drive Mounting Basics
 
 ## Installing Snap
 
