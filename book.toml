@@ -3,3 +3,6 @@ authors = ["sts10"]
 multilingual = false
 src = "src"
 title = "Linux Notes"
+
+[build]
+build-dir = "../sts10.github.io/linux-book"
