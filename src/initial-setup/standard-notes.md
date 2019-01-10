@@ -21,3 +21,5 @@ Categories=Office;Notes;
 ```
 
 Now, after a computer restart, Standard Notes should come up when you search your applications.
+
+[More on desktop files in the Arch Wiki](https://wiki.archlinux.org/index.php/desktop_entries).

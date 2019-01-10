@@ -15,3 +15,11 @@ Think it's just `sudo apt install snapd`
 ## How to mount an external hard drive that's formatted as exFAT
 
 Simply install these programs by running this line: `sudo apt-get install exfat-fuse exfat-utils` ([via](https://www.reddit.com/r/Ubuntu/comments/6r954q/mount_exfat_drive_in_ubuntu_1704/)). 
+
+## Desktop Files
+
+The Arch Wiki has [an entry on desktop entries](https://wiki.archlinux.org/index.php/desktop_entries), which notes
+
+> Desktop entries for applications, or .desktop files, are generally a combination of meta information resources and a shortcut of an application. These files usually reside in `/usr/share/applications/` or `/usr/local/share/applications/` for applications installed system-wide, or `~/.local/share/applications/` for user-specific applications. User entries take precedence over system entries.
+
+See the page on Standard Notes for more.
