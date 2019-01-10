@@ -1,5 +1,6 @@
 # Summary
 
+- [Introduction](./welcome.md)
 - [Installing a Fresh Distro on Oryx Pro](./installing-on-oryx.md)
 - [Initial Setup](./initial-setup/index.md)
   - [Basics](./initial-setup/basics.md)
