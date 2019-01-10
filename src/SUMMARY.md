@@ -7,6 +7,7 @@
   - [Neovim](./initial-setup/neovim.md)
   - [KeePassXC](./initial-setup/keepassxc.md)
   - [Syncthing](./initial-setup/syncthing.md)
+  - [Standard Notes](./initial-setup/standard-notes.md)
   - [PGP](./initial-setup/pgp.md)
   - [Other Apps to Install](./initial-setup/other-apps.md)
   - [Chrome and Flash](./initial-setup/chrome-and-flash.md)
