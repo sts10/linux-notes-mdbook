@@ -8,7 +8,9 @@ Most of my Linux config files (as opposed to guides, which is what this site is 
 
 ## How this book is set up
 
-This is an [mdbook](https://github.com/rust-lang-nursery/mdBook). The book's source files live in [this GitHub repo](https://github.com/sts10/linux-notes-mdbook). The GitHub repo of my Jekyll website/blog, which is one place where this book is published, is [here](https://github.com/sts10/sts10.github.io).
+This is an [mdbook](https://github.com/rust-lang-nursery/mdBook). The book's source files live in [this GitHub repo](https://github.com/sts10/linux-notes-mdbook) -- if you wish to **contribute** to this book, please create an issue or pull request there!
+
+The GitHub repo of my Jekyll website/blog, which is one place where this book is published, is [here](https://github.com/sts10/sts10.github.io).
 
 ### Publishing the mdbook to the GitHub Page: 
 
