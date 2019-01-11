@@ -4,6 +4,7 @@
 - [Installing a Fresh Distro on Oryx Pro](./installing-on-oryx.md)
 - [Initial Setup](./initial-setup/index.md)
   - [Basics](./initial-setup/basics.md)
+  - [bashrc and terminal](./initial-setup/bashrc-and-konsole.md)
   - [Git](./initial-setup/git.md)
   - [Neovim](./initial-setup/neovim.md)
   - [KeePassXC](./initial-setup/keepassxc.md)
