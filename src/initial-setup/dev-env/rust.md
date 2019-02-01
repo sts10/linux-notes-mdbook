@@ -1,12 +1,14 @@
-# Rust
+# Rust + Neovim
 
-1. [Install Rust](https://www.rust-lang.org/en-US/install.html) - Make sure to add `export PATH="$HOME/.cargo/bin:$PATH"` to end of `~/.bashrc`. Note: you can uninstall at anytime with `rustup self uninstall`
+This assumes you have [Neovim](../neovim.html) installed already.
+
+1. [Install Rust](https://www.rust-lang.org/en-US/install.html). Make sure to add `export PATH="$HOME/.cargo/bin:$PATH"` to end of `~/.bashrc`. Note: you can uninstall at anytime with `rustup self uninstall`.
 
 2. Install [rustfmt](https://github.com/rust-lang-nursery/rustfmt) and [its Vim counterpart, rust.vim](https://github.com/rust-lang/rust.vim#formatting-with-rustfmt)
 
 3. Install [Rust Clippy](https://github.com/rust-lang-nursery/rust-clippy#usage)
 
-## Getting Autocomplete in Vim with Deoplete 
+## Getting Autocomplete in Neovim with Deoplete 
 
 1. Install [Deoplete](https://github.com/Shougo/deoplete.nvim#install)
   - You may first be required to install some Python stuff. You may want to get your [pyenv setup](python-pyenv.html) working first. However, in a pinch, these commands have worked for me in the past: 
@@ -71,13 +73,16 @@ nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
 " got an error with this on only attempt
 nnoremap <silent> gr :call LanguageClient#textDocument_rename()<CR>
 
-" Deoplete (auto-complete)
+" Deoplete (general auto-complete)
 let g:deoplete#enable_at_startup = 1
 
-"Racer (Rust)
+" Racer (Rust auto-complete)
 let g:racer_cmd = "~/.cargo/bin/racer"
 let g:racer_experimental_completer = 1
 
+" ...
+
+set hidden
 ```
 
 Then, from the command line, run `nvim +PlugInstall +UpdateRemotePlugins +qa` to install all that right. 
