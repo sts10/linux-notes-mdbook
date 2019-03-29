@@ -2,7 +2,7 @@
 authors = ["sts10"]
 multilingual = false
 src = "src"
-title = "Linux Notes"
+title = "Docs"
 
 [build]
-build-dir = "../sts10.github.io/linux-book"
+build-dir = "../sts10.github.io/docs"

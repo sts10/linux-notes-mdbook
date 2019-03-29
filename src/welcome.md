@@ -1,4 +1,4 @@
-# Linux Notes
+# Sam's Docs
 
 Welcome! This is an [mdbook](https://github.com/rust-lang-nursery/mdBook) full on notes that Sam Schlinkert has written about installing and running a Linux desktop. It's mostly for personal reference, but you may find it useful. It mostly pertains to Ubuntu-based systems. 
 
@@ -14,19 +14,7 @@ The GitHub repo of my Jekyll website/blog, which is one place where this book is
 
 ### Publishing the mdbook to the GitHub Page: 
 
-The `book.toml` file in [the mdbook source repo](https://github.com/sts10/linux-notes-mdbook) specifies that the mdbook builds to `../sts10.github.io/linux-book` (via the `mbdook build` command). So when you set this up you need those two directories in the same parent directory.
-
-Once set up, you can run a publish: 
-
-1. In the mdbook source repo, run `mdbook build`
-2. In the `sts10.github.io` Jekyll site repo, add and commit the Git changes and run `git push origin master`
-## How this book is set up
-
-This is an [mdbook](https://github.com/rust-lang-nursery/mdBook). The book's source files live in [this GitHub repo](https://github.com/sts10/linux-notes-mdbook). The GitHub repo of my Jekyll website/blog, which is one place where this book is published, is [here](https://github.com/sts10/sts10.github.io).
-
-### Publishing the mdbook to the GitHub Page: 
-
-The `book.toml` file in [the mdbook source repo](https://github.com/sts10/linux-notes-mdbook) specifies that the mdbook builds to `../sts10.github.io/linux-book` (via the `mbdook build` command). So when you set this up you need those two directories in the same parent directory.
+The `book.toml` file in [the mdbook source repo](https://github.com/sts10/linux-notes-mdbook) specifies that the mdbook builds to `../sts10.github.io/docs` (via the `mbdook build` command). So when you set this up you need those two directories in the same parent directory.
 
 Once set up, you can run a publish: 
 
