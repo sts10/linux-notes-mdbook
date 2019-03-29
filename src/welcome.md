@@ -1,4 +1,4 @@
-# Sam's Docs
+# Schlink's Docs
 
 Welcome! This is an [mdbook](https://github.com/rust-lang-nursery/mdBook) full on notes that Sam Schlinkert has written about installing and running a Linux desktop. It's mostly for personal reference, but you may find it useful. It mostly pertains to Ubuntu-based systems. 
 
