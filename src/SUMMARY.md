@@ -23,6 +23,7 @@
   - [KDE Setup and Troubleshooting](./initial-setup/kde-setup.md)
   - [Redshift](./initial-setup/redshift.md)
   - [Battery and TLP](./initial-setup/battery-management.md)
+  - [rsync](./initial-setup/rsync.md)
   - [Images and Video](./initial-setup/images-and-video.md)
 - [Installing Ubuntu on my 2009 MacBook Pro](./installing-ubuntu-on-an-old-macbook-pro.md)
 - [Lubuntu](./lubuntu/index.md)
