@@ -1,6 +1,6 @@
 # Go
 
-A good desktop app: [Sabaki](https://sabaki.yichuanshen.de/ ([GitHub](https://github.com/SabakiHQ/Sabaki)). To install it, I went with the x64 AppImage, probably from [the GitHub Releases tab](https://github.com/SabakiHQ/Sabaki/releases)).
+A good desktop app: [Sabaki](https://sabaki.yichuanshen.de/) ([GitHub repo](https://github.com/SabakiHQ/Sabaki)). To install it, I went with the x64 AppImage, probably from [the GitHub Releases tab](https://github.com/SabakiHQ/Sabaki/releases)).
 
 ## Setting up LeelaZero (Ubuntu)
 
