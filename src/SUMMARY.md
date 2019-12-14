@@ -25,6 +25,7 @@
   - [Battery and TLP](./initial-setup/battery-management.md)
   - [rsync](./initial-setup/rsync.md)
   - [Images and Video](./initial-setup/images-and-video.md)
+  - [Go and LeelaZero](./initial-setup/go.md)
 - [Installing Ubuntu on my 2009 MacBook Pro](./installing-ubuntu-on-an-old-macbook-pro.md)
 - [Lubuntu](./lubuntu/index.md)
   - [Switching to Lubuntu](./lubuntu/switching-to-lubuntu.md)
