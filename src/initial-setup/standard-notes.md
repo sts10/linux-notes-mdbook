@@ -1,6 +1,14 @@
 # Setting up Standard Notes on Linux
 
-First, let's [download Standard Notes for Linux](https://standardnotes.org/).
+[As of January 2020, Standard Notes is available as a snap](https://www.omgubuntu.co.uk/2020/01/standard-notes-snap-app). 
+
+```bash
+sudo snap install standard-notes
+```
+
+But I originally installed Standard Notes via the AppImage, so I'll leave those instructions here. 
+
+First, let's [download Standard Notes for Linux from the Standard Notes site](https://standardnotes.org/), which gives us an AppImage file.
 
 ## Where to put the AppImage file? 
 
