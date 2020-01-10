@@ -1,8 +1,8 @@
 # Go
 
-[Go](https://en.wikipedia.org/wiki/Go_(game)\) is a ~2,500-year-old abstract strategy board game! 
+[Go](https://en.wikipedia.org/wiki/Go_(game)) is a ~2,500-year-old abstract strategy board game that you might play or want to play. I got into it after watching the AlphaGo documentary ([currently on Netflix](https://www.netflix.com/title/80190844)).
 
-If you just want to play Go on your desktop, an easy way to do it is in your browser through an online server like [OGS](https://online-go.com/). On iOS I like [SmartGo](https://apps.apple.com/us/app/smartgo-player/id314506629). See more Go resources at the bottom of this page.
+If you just want to play Go on your desktop, an easy way to do it is in your browser through an online server like [OGS](https://online-go.com/). On iOS I like [SmartGo](https://apps.apple.com/us/app/smartgo-player/id314506629). See more Go resources at the bottom of this page. But the bulk of this page is dedicated to playing Go through a desktop app called Sabaki.
 
 ## Sabaki, a desktop Go app for Linux
 
