@@ -1,12 +1,16 @@
 # Go
 
-Go is a board game!
+[Go](https://en.wikipedia.org/wiki/Go_(game)\) is a ~2,500-year-old abstract strategy board game! 
+
+If you just want to play Go on your desktop, an easy way to do it is in your browser through an online server like [OGS](https://online-go.com/). On iOS I like [SmartGo](https://apps.apple.com/us/app/smartgo-player/id314506629). See more Go resources at the bottom of this page.
+
+## Sabaki, a desktop Go app for Linux
 
 A good desktop app that works for Linux is [Sabaki](https://sabaki.yichuanshen.de/) ([GitHub repo](https://github.com/SabakiHQ/Sabaki)). To install it, I went with the x64 AppImage, probably from [the GitHub Releases tab](https://github.com/SabakiHQ/Sabaki/releases)).
 
 In Sabaki you can play against yourself or load and go through SGF files. But you can also "attach" [a number of "game engines"](https://github.com/SabakiHQ/Sabaki/blob/master/docs/guides/engines.md) to Sabaki to either play against or have analyze games. You can manage the engines available to Sabaki by going to "Engines" > "Manage Engines". 
 
-## Setting up the GNU Go Engine
+## Setting up the GNU Go engine
 
 [GNU Go](https://www.gnu.org/software/gnugo/gnugo.html) is an engine that's nice in that it can (a) play on multiple board sizes out of the box, and (b) has multiple levels to choose from (1 through 10 or 1 through 9, I'm not sure).
 
@@ -83,3 +87,48 @@ Some of these engines  -- like LeelaZero and Pachi -- allow you to analyze next 
 2. With "Analysis" toggled on, you can also hover a piece over a space and the engine will play out the game from there, if you were to move there.
 
 If the GPU load gets to be too much, you can always make the engine suspend by going to "Engines" > "Suspend". Toggling Analysis off will help too, as the engine won't think during your move.
+
+
+## Appendix: Go resources
+
+If you're here and want to learn more about Go, I've pasted some of my notes on general Go resources below.
+
+### Learning the rules
+
+To learn how to play Go, I'd recommend watching YouTube videos (links below), but obviously there are other ways.
+
+- YouTube videos I liked: ["How to Play Go" YouTube series](https://www.youtube.com/watch?v=Vov_keBQOJ8&list=PL5mVjO5OFYSzIlp0aTDsE_1Xsx16AaUej). Here's [another one I watched](https://www.youtube.com/watch?v=xMshtO8h7RU), and [one from the New York Institute of Go](https://www.youtube.com/watch?v=eNpJF0BzUig). 
+- The [r/baduk subreddit](https://www.reddit.com/r/baduk) ("Baduk" is what they call the game in Korean, and has much better search-ability online) has [a pinned post full of links for newcomers](https://www.reddit.com/r/baduk/comments/4c8xs5/learning_links_for_newcomers_after_alphago/), including to YouTube resources.
+- There's also [this interactive tutorial](http://playgo.to/iwtg/en/), though I had to fiddle with my browser settings a bit to make it work. 
+- Here's [a non-interactive slideshow of sorts](http://www.learngo.co.uk/GoTutor/Tutor.php) that looks good.
+
+### Actually playing games
+
+- On desktop web: I like [online-go.com](https://online-go.com/) for actually playing Go games online. You can play both other humans and a variety of bots with different skill levels. 
+  - If you don't want to be bothered to create an account, there's [this site](https://www.cosumi.net/en/), though it doesn't offer handicaps on smaller boards like 9 by 9, so you're probably going to lose way more than half the time.
+- On iOS: As mentioned, I've found [this $2.99 app called SmartGo](https://apps.apple.com/us/app/smartgo-player/id314506629) nice for beginners like me. If you ask, it'll estimate the score for you and even suggest a move for you. If that's not challenging enough, [A Master of Go](https://new3rs.github.io/a_master_of_go/index.html) is an expensive iOS app that features high-end AI software.
+- On your desktop, you can install Sabaki and a number of Go engines to play against.
+- There are more software options listed [here](https://www.reddit.com/r/cbaduk/comments/c0o8f1/go_software/).
+
+### Exercises
+
+If you're don't want to play full games, you can find apps and websites that provide small exercises or puzzles to play through. 
+
+- The iOS app SmartGo that I've mentioned above has a tutorial of live exercises somewhere in the menus.
+- online-go.com has [a "playlist" of puzzles for beginners](https://online-go.com/puzzle/2625), though I found them a bit too difficult?
+
+### More English-language YouTube channels
+
+- [dwyrin](https://www.youtube.com/channel/UCCYMY6j5mUvPMPzvN5bxuKA)
+- [Nick Sibicky](https://www.youtube.com/channel/UC_msctwlIh2cwM8yAtaju1A)
+- [Go Pro Yeonwoo](https://www.youtube.com/user/goingceo/videos)
+- [American Go Association](https://www.youtube.com/user/USGOWeb/videos)
+- [New York Institute of Go](https://www.youtube.com/user/goingceo/videos)
+
+### Books
+
+I'm not sure if you _need_ a book or books to learn, but obviously there are plenty out there. In my cursory search of posts on r/baduk, I found and bought three popular options for beginners. I've read at least half of them, and I'd recommend reading them in this order:
+
+1. [_Learn to Play Go_ by Janice Kim](https://www.amazon.com/gp/product/1453632891/ref=ox_sc_act_title_3?smid=ATVPDKIKX0DER&psc=1) would probably work for brand new players.
+2. [_Go for Beginners_ by Kaoru Iwamoto](https://www.amazon.com/gp/product/0394733312/ref=ox_sc_act_title_2?smid=ATVPDKIKX0DER&psc=1) seems like a classic intro text.
+3. [_Lessons in the Fundamentals of Go_ by Toshiro Kageyama](https://www.amazon.com/gp/product/4906574289/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) is still a bit advanced for me.
