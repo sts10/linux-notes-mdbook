@@ -69,6 +69,31 @@ I haven't tried this, but the Pachi README says it might improve performance to 
 5. Restart Sabaki 
 6. Find the Game Info menu item. For White, in the drop-down menu, select Leela Zero. Make sure you choose a 19 by 19 board. And you're probably going to want a large handicap.
 
+## KataGo
+
+[KataGo](https://github.com/lightvector/KataGo) is another new engine. I think I like it best of these options since it works on smaller board sizes and, apparently, it works well with handicaps.
+
+To run it on Linux (or Windows), I think you want to download the appropriate binary from [the GitHub release page](https://github.com/lightvector/KataGo/releases). On my System76 Oryx Pro, I apparently prefer the `katago-v1.X.X-opencl-linux-x64.zip` version. And you also need one of the "block network" files, which I think are called "models". These files end in `bin.gz` or `txt.gz`. I think I've chosen the "40 block network" before, though I don't fully understand what that number means. 
+
+Next, you may want to have the binary create a config file tuned to your computer. From [the README's "How to Use" section](https://github.com/lightvector/KataGo#how-to-use):
+
+"To automatically tune threads and other settings for you based on asking simple questions, and generate a GTP config for you: `./katago genconfig -model <NEURALNET>.gz -output <PATH_TO_SAVE_GTP_CONFIG>.cfg`"
+
+Answer the questions as you like. It'll create a fresh text config file that we'll point Sabaki to (see below).
+
+At some point, you'll want to run something like `chmod a+x ./katago`.
+
+### Settings for KataGo for Sabaki
+
+```
+/home/sschlinkert/code/go-engines/katago-v1.3.5-opencl-linux-x64/katago
+gtp -model '/home/sschlinkert/code/go-engines/katago-v1.3.5-opencl-linux-x64/g170-b30c320x2-s2846858752-d829865719.bin.gz' -config '/home/sschlinkert/code/go-engines/katago-v1.3.5-opencl-linux-x64/my_oryx_pro_config.cfg'
+```
+and no "initial commands" 
+
+Note that you may need to run `chmod a+x` on the executable before it'll work.
+
+
 ## How to play against a game engine in Sabaki
 
 To play against one of these engines, open Sabaki. Be sure you're on a blank, new game. Then go to "File" > "Game Info". If you want Balck, make the engine take Whtie by clicking the down arrow next to "White" and selecting the engine you want to play. Fill out the other fields as desired, then hit the OK button. If you're Black, place a stone to start the game, and the engine should respond. To see what the engine is doing, go to "Engines" > "Toggle GTP console".
